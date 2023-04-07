@@ -18,7 +18,29 @@ body {
   color: var(--color-slate);
   background-color: var(--color-white);
 }
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* Header styles */
+.header-block {
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+.nav-item-list {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+}
 .header-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -27,6 +49,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
+  padding-right: 76px;
 }
 .link {
   text-decoration: none;
@@ -52,6 +75,12 @@ body {
 .address {
   font-style: normal;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding-left: 0;
+}
 .address-link {
   font-weight: 400;
   font-size: 16px;
@@ -67,6 +96,8 @@ body {
 /* Hero styles */
 .hero {
   background-color: var(--primary-color-navyblue);
+}
+.section-hero {
 }
 .hero-title {
   font-weight: 700;
