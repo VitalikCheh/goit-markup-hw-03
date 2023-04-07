@@ -26,11 +26,15 @@ body {
 }
 
 /* Header styles */
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .header-block {
   display: flex;
   margin-top: 24px;
   margin-bottom: 24px;
   justify-content: space-between;
+  align-items: center;
 }
 .nav-list {
   display: flex;
@@ -49,7 +53,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  padding-right: 76px;
+  margin-right: 76px;
 }
 .link {
   text-decoration: none;
