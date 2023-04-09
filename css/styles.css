@@ -53,7 +53,6 @@ ul {
 .nav-item-list {
   display: flex;
   gap: 40px;
-  padding-left: 0;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -85,6 +84,8 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-color-navyblue);
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link:hover,
 .header-link:focus {
