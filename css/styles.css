@@ -54,8 +54,6 @@ ul {
   display: flex;
   gap: 40px;
   padding-left: 0;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .header-logo {
   font-family: Raleway, sans-serif;
@@ -77,6 +75,8 @@ ul {
   list-style: none;
 }
 .header-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .header-link {
   font-weight: 500;
@@ -202,6 +202,7 @@ ul {
 .portfolio-card-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 .portfolio-title {
   font-weight: 500;
