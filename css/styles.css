@@ -187,12 +187,26 @@ ul {
 }
 
 /* Our Work styles*/
+.section-ourwork {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.ourwork-block {
+}
+.ourwork-list-block {
+  display: flex;
+  gap: 24px;
+}
+.ourwork-list {
+  width: calc((100% - 72px) / 4);
+}
 .work-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color-navyblue);
+  margin-bottom: 8px;
 }
 .work-uppertitle {
   font-weight: 400;
