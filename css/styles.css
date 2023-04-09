@@ -216,6 +216,9 @@ ul {
   color: var(--color-slate);
 }
 /* We Doing styles */
+.wedoing {
+  padding-bottom: 120px;
+}
 .wedoing-title {
   font-weight: 700;
   font-size: 36px;
@@ -224,6 +227,17 @@ ul {
   text-transform: capitalize;
   text-align: center;
   color: var(--primary-color-navyblue);
+  margin-bottom: 72px;
+}
+.wedoing-list-block {
+  display: flex;
+  gap: 24px;
+}
+.wedoing-list {
+  width: calc((100% - 48px) / 3);
+}
+.wedoing-img {
+  display: block;
 }
 /* Our Team styles */
 .ourteam {
