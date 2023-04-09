@@ -270,6 +270,7 @@ ul {
 .ourteam-card-content {
   display: block;
   padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
 }
 .ourteam-title-name {
   font-weight: 500;
@@ -293,6 +294,12 @@ ul {
 .footer {
   background-color: var(--primary-color-navyblue);
 }
+.section-footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-block {
+}
 .footer-logo {
   font-family: Raleway, sans-serif;
   font-weight: 800;
@@ -302,6 +309,8 @@ ul {
   text-decoration: none;
   text-transform: uppercase;
   color: var(--color-iris);
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo-cloud {
   color: var(--color-cloud);
@@ -312,5 +321,6 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-cloud);
+  max-width: 264px;
 }
 /*  */
